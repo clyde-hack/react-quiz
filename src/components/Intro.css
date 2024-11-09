@@ -1,0 +1,37 @@
+/* Intro Styles */
+#intro {
+	margin-block: 3rem;
+	padding: 3rem;
+	background-color: #262626;
+	border: 1px solid #4a5556;
+	border-radius: 16px;
+	text-align: center;
+}
+
+#intro h2 {
+	margin-top: 0;
+}
+
+#intro h3 {
+	margin-top: 3rem;
+}
+
+#intro p {
+	margin-inline: auto;
+	font-weight: 300;
+}
+
+#intro button {
+	display: inline-block;
+	padding-inline: 3rem;
+	background-color: #09d3ed;
+	border: 1px solid #09d3ed;
+	border-radius: 3px;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: calc(3rem - 2px);
+	color: #032327;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+}

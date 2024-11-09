@@ -1,0 +1,51 @@
+#score {
+	margin-top: 0;
+}
+
+#quiz-results {
+	list-style-type: decimal;
+	margin-block: 1.5rem;
+	padding-left: 0.75rem;
+	font-size: 0.875em;
+	line-height: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+	#quiz-results {
+		columns: 2;
+	}
+}
+
+#quiz-results .correct {
+	color: green;
+}
+
+#quiz-results .correct::after {
+	content: '\2713';
+	display: inline-block;
+	margin-left: 0.75rem;
+}
+
+#quiz-results .wrong {
+	font-style: italic;
+	color: red;
+}
+
+#quiz-results .wrong::after {
+	content: '\274c';
+	display: inline-block;
+	margin-left: 0.75rem;
+}
+
+#close {
+	display: inline-block;
+	padding-inline: 1.5rem;
+	background-color: #333;
+	border: 1px solid #333;
+	border-radius: 3px;
+	font-size: 0.875em;
+	font-weight: 500;
+	line-height: calc(2rem - 2px);
+	color: ghostwhite;
+	cursor: pointer;
+}

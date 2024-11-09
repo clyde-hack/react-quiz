@@ -1,0 +1,19 @@
+.modal {
+	position: fixed;
+	top: 7rem;
+	min-width: 40vw;
+	max-width: 80vw;
+	margin: auto;
+	padding: 3rem;
+	padding: 3rem;
+	border: none;
+	border-radius: 12px;
+}
+
+.scrim {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.32);
+}

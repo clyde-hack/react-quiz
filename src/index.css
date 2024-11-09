@@ -1,0 +1,70 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+ul,
+ol,
+menu {
+	list-style-type: none;
+}
+
+/* Global Styles */
+body {
+	background-color: #343d3f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5em;
+	color: #c6c6c6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: calc((1.5rem * 2) - 1em);
+	margin-bottom: 1.5rem;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+p {
+	max-width: 30em;
+	margin-block: 1.5rem;
+}
+
+/* Layout Styles */
+#root {
+	max-width: 50rem;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+#app-header {
+	position: sticky;
+	top: 0;
+	padding-inline: 1.5rem;
+	background-color: inherit;
+	text-align: center;
+}
+
+#app-header h1 {
+	margin: 0;
+	line-height: 5rem;
+}
