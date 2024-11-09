@@ -14,4 +14,4 @@ This application was created for demonstration purposes only and to showcase a b
 
 ## Preview
 
-[React Quiz](https://clyde-hack-react-quiz.netlify.app/)
+<a href="https://clyde-hack-react-quiz.netlify.app/" target="_blank">View React Demo</a>
